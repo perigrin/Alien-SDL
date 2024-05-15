@@ -125,8 +125,8 @@ our $source_packs = [
         version => '8b',
         dirname => 'jpeg-8b',
         url => [
-          'http://www.ijg.org/files/jpegsrc.v8b.tar.gz',
           'http://froggs.de/libjpeg/jpegsrc.v8b.tar.gz',
+          'http://www.ijg.org/files/jpegsrc.v8b.tar.gz',
         ],
         sha1sum  => '15dc1939ea1a5b9d09baea11cceb13ca59e4f9df',
         patches => [
@@ -169,8 +169,8 @@ our $source_packs = [
         version => '2.3.12',
         dirname => 'freetype-2.3.12',
         url => [
-          'http://mirror.lihnidos.org/GNU/savannah/freetype/freetype-2.3.12.tar.gz',
           'http://froggs.de/libfreetype/freetype-2.3.12.tar.gz',
+          'http://mirror.lihnidos.org/GNU/savannah/freetype/freetype-2.3.12.tar.gz',
         ],
         sha1sum  => '0082ec5e99fec5a1c6d89b321a7e2f201542e4b3',
         prereqs => {
