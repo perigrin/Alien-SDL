@@ -225,9 +225,9 @@ our $source_packs = [
         pack => 'ogg',
         version => '1.3.0',
         dirname => 'libogg-1.3.0',
-        url => [
-          'http://downloads.xiph.org/releases/ogg/libogg-1.3.0.tar.gz',
+        url => [        
           'http://froggs.de/libsdl/libogg-1.3.0.tar.gz',
+          'http://downloads.xiph.org/releases/ogg/libogg-1.3.0.tar.gz',
         ],
         sha1sum  => 'a900af21b6d7db1c7aa74eb0c39589ed9db991b8',
         patches => [ ],
@@ -236,9 +236,9 @@ our $source_packs = [
         pack => 'vorbis',
         version => '1.3.3',
         dirname => 'libvorbis-1.3.3',
-        url => [
-          'http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.3.tar.gz',
+        url => [      
           'http://froggs.de/libsdl/libvorbis-1.3.3.tar.gz',
+          'http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.3.tar.gz',
         ],
         sha1sum  => '8dae60349292ed76db0e490dc5ee51088a84518b',
         patches => [
