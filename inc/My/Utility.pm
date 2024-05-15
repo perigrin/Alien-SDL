@@ -39,8 +39,8 @@ my $prebuilt_binaries = [
       title    => "Binaries Win/32bit SDL-1.2.14 (extended, 20100704) RECOMMENDED\n" .
                   "\t(gfx, image, mixer, net, smpeg, ttf, sound, svg, rtf, Pango)",
       url      => [
-        'http://strawberryperl.com/package/kmx/sdl/Win32_SDL-1.2.14-extended-bin_20100704.zip',
         'http://froggs.de/libsdl/Win32_SDL-1.2.14-extended-bin_20100704.zip',
+        'http://strawberryperl.com/package/kmx/sdl/Win32_SDL-1.2.14-extended-bin_20100704.zip',
       ],
       sha1sum  => '98409ddeb649024a9cc1ab8ccb2ca7e8fe804fd8',
       arch_re  => qr/^MSWin32-x86-multi-thread(-64int)?$/,
@@ -51,8 +51,8 @@ my $prebuilt_binaries = [
       title    => "Binaries Win/32bit SDL-1.2.14 (extended, 20111205)\n" .
                   "\t(gfx, image, mixer, net, smpeg, ttf, sound, svg, rtf, Pango)",
       url      => [
-        'http://strawberryperl.com/package/kmx/sdl/Win32_SDL-1.2.14-extended-bin_20111205.zip',
         'http://froggs.de/libsdl/Win32_SDL-1.2.14-extended-bin_20111205.zip',
+        'http://strawberryperl.com/package/kmx/sdl/Win32_SDL-1.2.14-extended-bin_20111205.zip',
       ],
       sha1sum  => '553b7e21bb650d047ec9f2a5f650c67d76430e61',
       arch_re  => qr/^MSWin32-x86-multi-thread(-64int)?$/,
@@ -65,8 +65,8 @@ my $prebuilt_binaries = [
                   "\tBEWARE: binaries are using old ABI - will fail with the latest gcc\n" .
                   "\tBEWARE: this is intended just for old strawberryperl 5.12.x/64bit",
       url      => [
-        'http://strawberryperl.com/package/kmx/sdl/Win64_SDL-1.2.14-extended-bin_20100824.zip',
         'http://froggs.de/libsdl/Win64_SDL-1.2.14-extended-bin_20100824.zip',
+        'http://strawberryperl.com/package/kmx/sdl/Win64_SDL-1.2.14-extended-bin_20100824.zip',
       ],
       sha1sum  => 'ccffb7218bcb17544ab00c8a1ae383422fe9586d',
       arch_re  => qr/^MSWin32-x64-multi-thread$/,
@@ -78,8 +78,8 @@ my $prebuilt_binaries = [
       title    => "Binaries Win/64bit SDL-1.2.14 (extended, 20111205) RECOMMENDED\n" .
                   "\t(gfx, image, mixer, net, smpeg, ttf, sound, svg, rtf, Pango)",
       url      => [
-        'http://strawberryperl.com/package/kmx/sdl/Win64_SDL-1.2.14-extended-bin_20111205.zip',
         'http://froggs.de/libsdl/Win64_SDL-1.2.14-extended-bin_20111205.zip',
+        'http://strawberryperl.com/package/kmx/sdl/Win64_SDL-1.2.14-extended-bin_20111205.zip',
       ],
       sha1sum  => '35f3b496ca443a9d14eff77e9e26acfa813afafd',
       arch_re  => qr/^MSWin32-x64-multi-thread$/,
@@ -207,8 +207,8 @@ our $source_packs = [
         version => '1.2.11',
         dirname => 'SDL_image-1.2.11',
         url => [
-          'http://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.11.tar.gz',
           'http://froggs.de/libsdl/SDL_image-1.2.11.tar.gz',
+          'http://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.11.tar.gz',
         ],
         sha1sum  => 'dd384ff87848595fcc0691833431ec5029f973c7',
         patches => [
@@ -253,8 +253,8 @@ our $source_packs = [
         version => '1.2.12',
         dirname => 'SDL_mixer-1.2.12',
         url => [
-          'http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12.tar.gz',
           'http://froggs.de/libsdl/SDL_mixer-1.2.12.tar.gz',
+          'http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12.tar.gz',
         ],
         sha1sum  => 'a20fa96470ad9e1052f1957b77ffa68fb090b384',
         patches => [
@@ -271,8 +271,8 @@ our $source_packs = [
         version => '2.0.11',
         dirname => 'SDL_ttf-2.0.11',
         url => [
-          'http://www.libsdl.org/projects/SDL_ttf/release/SDL_ttf-2.0.11.tar.gz',
           'http://froggs.de/libsdl/SDL_ttf-2.0.11.tar.gz',
+          'http://www.libsdl.org/projects/SDL_ttf/release/SDL_ttf-2.0.11.tar.gz',
         ],
         sha1sum  => '0ccf7c70e26b7801d83f4847766e09f09db15cc6',
         patches => [ ],
@@ -301,8 +301,8 @@ our $source_packs = [
         version => '1.2',
         dirname => 'SDL_Pango-0.1.2',
         url => [
-          'http://downloads.sourceforge.net/sdlpango/SDL_Pango-0.1.2.tar.gz',
           'http://froggs.de/libsdl/SDL_Pango-0.1.2.tar.gz',
+          'http://downloads.sourceforge.net/sdlpango/SDL_Pango-0.1.2.tar.gz',
         ],
         sha1sum  => 'c30f2941d476d9362850a150d29cb4a93730af68',
         patches => [
